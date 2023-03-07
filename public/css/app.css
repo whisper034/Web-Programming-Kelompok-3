@@ -468,4 +468,26 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.h-screen {
+  height: 100vh;
+}
+.text-center {
+  text-align: center;
+}
+.font-bold {
+  font-weight: 700;
+}
+
+img {
+    display: none !important;
+    width: 200px;
+}
+
+@media(max-width: 1000px) {
+
+}
 
