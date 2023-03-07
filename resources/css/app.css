@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 img {
-    display: none !important;
+    display: inline-block !important;
     width: 200px;
 }
 
