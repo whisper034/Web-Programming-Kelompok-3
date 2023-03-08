@@ -14,7 +14,7 @@
         <img src="{{ asset('/images/profile-images/rico-tokanto.jpg') }}" alt="ariel sefrian" class="p-14 fullHeight object-cover" style="width: 35rem;">
     </div>
 
-    <div class="m-11 mt-32">
+    <div class="m-11 mt-20">
         <div class="flex flex-col">
             <div class="font-bold font-poppins text-8xl">
                 Rico Frenaldi Tokanto, 20
