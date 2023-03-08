@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 /*
 ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
-*//*
+*/
+
+/*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
@@ -338,6 +341,7 @@ button,
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
+
 :disabled {
   cursor: default;
 }
@@ -371,11 +375,12 @@ video {
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
+
 [hidden] {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -422,7 +427,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -468,26 +473,167 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.mx-auto {
+.fixed{
+  position: fixed;
+}
+.relative{
+  position: relative;
+}
+.m-11{
+  margin: 2.75rem;
+}
+.mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
-.h-screen {
-  height: 100vh;
+.mr-24{
+  margin-right: 6rem;
 }
-.text-center {
+.mt-5{
+  margin-top: 1.25rem;
+}
+.mt-16{
+  margin-top: 4rem;
+}
+.mt-20{
+  margin-top: 5rem;
+}
+.mt-28{
+  margin-top: 7rem;
+}
+.mt-32{
+  margin-top: 8rem;
+}
+.inline-block{
+  display: inline-block;
+}
+.flex{
+  display: flex;
+}
+.grid{
+  display: grid;
+}
+.flex-col{
+  flex-direction: column;
+}
+.items-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.p-14{
+  padding: 3.5rem;
+}
+.text-center{
   text-align: center;
 }
-.font-bold {
+.text-right{
+  text-align: right;
+}
+.text-justify{
+  text-align: justify;
+}
+.font-poppins{
+  font-family: "Poppins", sans-serif;
+}
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+.text-8xl{
+  font-size: 6rem;
+  line-height: 1;
+}
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.font-bold{
   font-weight: 700;
 }
 
-img {
-    display: inline-block !important;
-    width: 200px;
+/*@font-face {*/
+/*    font-family: "Poppins Bold", sans-serif;*/
+/*    src: url("../public/fonts/Poppins-Bold.ttf") format("truetype");*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: "Poppins Medium", sans-serif;*/
+/*    src: url("../public/fonts/Poppins-Medium.ttf") format("truetype");*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: "HelveticaNeue", sans-serif;*/
+/*    src: url("../public/fonts/HelveticaNeue.ttf") format("truetype");*/
+/*}*/
+
+.fullScreen {
+    height: 100vh;
+    width: 100vw;
 }
 
-@media(max-width: 1000px) {
+.logo img {
+    display: inline-block !important;
+    width: 250px;
+}
+
+.profile-button a {
+    background-color: black;
+    color: white;
+    padding: 20px 60px;
+}
+
+.profile-button a:hover {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+.fullHeight {
+    height: 100vh;
+    width: auto;
+}
+
+.next a {
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    padding: 0.8rem 2.2rem;
+}
+
+.next a:hover {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+.prev a {
+    border: solid black 1px;
+    color: black;
+    padding: 0.8rem 2.2rem;
+}
+
+.prev a:hover {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+.home-button a {
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    padding: 0.8rem 2.66rem;
+}
+
+.home-button a:hover {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+@media (max-width: 1000px) {
 
 }
 

@@ -19,14 +19,14 @@ Route::get('/', function () {
 });
 
 // PROFILE ROUTES
-Route::get('/profile/ariel-sefrian', function () {
-    return view('ariel-sefrian');
+Route::get('/profiles/ariel-sefrian', function () {
+    return view('profiles/ariel-sefrian');
 });
 
-Route::get('/profile/devin-augustin', function () {
-    return view('devin-augustin');
+Route::get('/profiles/devin-augustin', function () {
+    return view('profiles/devin-augustin');
 });
 
-Route::get('/profile/rico-tokanto', function () {
-    return view('devin-augustin');
+Route::get('/profiles/rico-tokanto', function () {
+    return view('profiles/rico-tokanto');
 });
