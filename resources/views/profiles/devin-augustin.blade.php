@@ -17,20 +17,20 @@
     <div class="m-11 mt-32">
         <div class="flex flex-col">
             <div class="font-bold font-poppins text-8xl">
-
+                Devin Augustin, 21
             </div>
 
             <br><br>
 
             <div class="font-poppins text-base text-justify mr-24">
                 <p>
-
+                    Perkenalkan, saya Devin Augustin, mahasiswa Universitas Bina Nusantara dari jurusan Computer Science and Statistics. Mata kuliah favorit saya saat ini adalah Data Management and Organizations karena saya senang bermain dengan data dan menemukan berbagai macam insight dari data.  
                 </p>
 
                 <br>
 
                 <p>
-
+                    Di dalam waktu luang, saya suka bermain game Valorant. Saya merupakan orang yang cukup kompetitif jadi saya selalu berusaha untuk menang dalam setiap game. Saya juga mempunyai impian untuk menjadi seorang pro player Valorant di kedepannya dan menjadi pemain terbaik di dunia.  
                 </p>
             </div>
         </div>
