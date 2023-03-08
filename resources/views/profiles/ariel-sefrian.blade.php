@@ -17,7 +17,7 @@
     <div class="m-11 mt-32">
         <div class="flex flex-col">
             <div class="font-bold font-poppins text-8xl">
-                Ariel Sefrian, 20
+                TEST NAME, 20
             </div>
 
             <br><br>
