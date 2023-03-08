@@ -9,13 +9,24 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body class="text-center">
-<div class="h-screen">
-    <img src="{{ asset('/images/logo/WebProgLogo.png') }}" alt="WebProgLogo" class="mx-auto">
+<div class="flex flex-col justify-center items-center fullScreen">
+    <div class="logo">
+        <img src="{{ asset('/images/logo/WebProgLogo.png') }}" alt="WebProgLogo" class="mx-auto">
+    </div>
+
+    <br>
+
+    <div class="font-bold font-poppins text-6xl" style="font-size: 50pt;">
+        WELCOME
+    </div>
+
+    <br><br>
+
+    <div class="font-bold font-poppins profile-button" style="font-size: 12pt;">
+        <a href="/profiles/ariel-sefrian">PROFILES</a>
+    </div>
 </div>
 
-<div class="font-bold">
-    hello there.
-</div>
 </body>
 <script src="{{ asset('js/app.js') }}"></script>
 </html>
