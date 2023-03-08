@@ -27,5 +27,8 @@ Cara untuk menjalankan repository:
 3. Buka terminal baru, jalankan `php artisan serve`, jadi ada 2 terminal yang menjalankan `npm run watch poll` dan `php artisan serve`
 4. Navigasi ke localhost yang digenerate oleh `php artisan serve`
 
+### Note:
+Branch yang bisa dipakai (default) adalah branch **Production**, jadi kalau mau download silahkan ke branch Production.
+
 ## Copyright
 #### @Kelompok 3 - All Rights Reserved
