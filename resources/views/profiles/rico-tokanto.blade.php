@@ -17,20 +17,20 @@
     <div class="m-11 mt-32">
         <div class="flex flex-col">
             <div class="font-bold font-poppins text-8xl">
-
+                Rico Frenaldi Tokanto, 20
             </div>
 
             <br><br>
 
             <div class="font-poppins text-base text-justify mr-24">
                 <p>
-
+                Aloo, Perkenalkan Saya Rico Frenaldi Tokanto, saya merupakan mahasiswa dari Universitas Bina Nusantara Fakultas Computer Science dengan jurusan Computer Science and Statistics. Saat ini saya sedang menjalani perkuliahan semester 6. Saya sangat menyukai mata kuliah Computer Network, karena itu berhubungan dengan cara kita mengalokasikan serta mengatur IP address untuk setiap komputer.
                 </p>
 
                 <br>
 
                 <p>
-
+                Saya lebih suka melakukan aktivitas di luar ruangan dibandingkan dengan kegiatan pasif seperti jalan - jalan ke mall, duduk di cafe dan lain sebagainya. Saya sangat menyukai olahraga badminton, bermain game  serta kerap melakukan olahraga angkat beban, karena menurut saya berolahraga itu menjaga tubuh dan pikiran saya tetap sehat.
                 </p>
             </div>
         </div>
