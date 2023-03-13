@@ -22,10 +22,14 @@ Repository ini berisi tentang profile singkat anggota kelompok 3. Berikut adalah
 Repository menggunakan **Tailwind CSS**
 
 Cara untuk menjalankan repository:
-1. Jalankan `npm install`
-2. Jalankan `npm run watch-poll`
-3. Buka terminal baru, jalankan `php artisan serve`, jadi ada 2 terminal yang menjalankan `npm run watch poll` dan `php artisan serve`
-4. Navigasi ke localhost yang digenerate oleh `php artisan serve`
+1. Jalankan `composer install`
+2. Copy file `.env.example`, kemudian paste di folder projectnya dan hapus `.example`, sehingga hanya tersisa `.env`
+3. Apabila file `.env` sudah ada, jalankan `php artisan key:generate`
+4. Setelah itu jalankan `php artisan cache:clear` dan `php artisan config:clear`
+5. Jalankan `npm install`, tunggu sampai selesai install
+6. Jalankan `npm run watch-poll`
+7. Buka terminal baru, jalankan `php artisan serve`, jadi ada 2 terminal yang menjalankan `npm run watch poll` dan `php artisan serve`
+8. Navigasi ke localhost yang digenerate oleh `php artisan serve`
 
 ### Note:
 Branch yang bisa dipakai (default) adalah branch **Production**, jadi kalau mau download silahkan ke branch Production.
