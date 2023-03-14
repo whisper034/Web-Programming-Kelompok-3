@@ -485,9 +485,6 @@ video {
 .m-5{
   margin: 1.25rem;
 }
-.m-7{
-  margin: 1.75rem;
-}
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -519,12 +516,6 @@ video {
 .items-center{
   align-items: center;
 }
-.justify-center{
-  justify-content: center;
-}
-.justify-between{
-  justify-content: space-between;
-}
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -544,9 +535,9 @@ video {
 .font-poppins{
   font-family: "Poppins", sans-serif;
 }
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 .text-5xl{
   font-size: 3rem;
@@ -567,10 +558,6 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 .font-bold{
   font-weight: 700;

@@ -14,7 +14,7 @@
     <div class="m-5">
         <br><br><br>
 
-        <div class="text-5xl font-poppins font-bold">
+        <div class="text-6xl font-poppins font-bold">
             <div id="time"></div>
         </div>
 

@@ -11,11 +11,11 @@ function showTime() {
             date.getSeconds()
         );
 
-    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     document.getElementById('time').innerHTML = utc.toLocaleTimeString('id');
     document.getElementById('date').innerHTML = utc.toLocaleDateString('id');
-    document.getElementById('day').innerHTML = weekday[utc.getDay()];
+    document.getElementById('day').innerHTML = weekday[date.getDay()];
 }
 
 setInterval(showTime, 1000);
