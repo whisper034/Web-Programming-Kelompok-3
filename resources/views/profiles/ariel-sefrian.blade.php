@@ -14,7 +14,7 @@
         <img src="{{ asset('/images/profile-images/ariel-sefrian.jpg') }}" alt="ariel sefrian" class="p-14 fullHeight object-cover">
     </div>
 
-    <div class="m-11 mt-32">
+    <div class="m-11 mt-10">
         <div class="flex flex-col">
             <div class="font-bold font-poppins text-8xl">
                 Ariel Sefrian, 20
@@ -38,7 +38,13 @@
         <br><br>
 
         <div class="fixed" style="bottom: 9%; right: 8.75rem;">
-            <div class="" style="margin-bottom: 1.8rem;">
+            <div class="" style="margin-bottom: 2rem;">
+                <div class="softskills-button">
+                    <a href="/softskills/ariel-sefrian">Soft Skills >>></a>
+                </div>
+            </div>
+
+            <div class="" style="margin-bottom: 2rem;">
                 <div class="prev inline-block">
                     <a href="/profiles/rico-tokanto">PREV</a>
                 </div>

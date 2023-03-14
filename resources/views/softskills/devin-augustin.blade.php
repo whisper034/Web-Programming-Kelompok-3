@@ -23,15 +23,35 @@
             <br><br>
 
             <div class="font-poppins text-base text-justify mr-24">
-                <p>
-                    Perkenalkan, saya Devin Augustin, mahasiswa Universitas Bina Nusantara dari jurusan Computer Science and Statistics. Mata kuliah favorit saya saat ini adalah Data Management and Organizations karena saya senang bermain dengan data dan menemukan berbagai macam insight dari data.
-                </p>
+                <div class="text-3xl font-bold mb-5" style="border-bottom: dotted black 2px; width: 100%;">
+                    Soft Skills
+                </div>
+                @php($softskillsKey = array())
+                @php(array_push($softskillsKey, "Leadership", "Public Speaking", "Creative", "Yakuza"))
 
-                <br>
-
-                <p>
-                    Di dalam waktu luang, saya suka bermain game Valorant. Saya merupakan orang yang cukup kompetitif jadi saya selalu berusaha untuk menang dalam setiap game. Saya juga mempunyai impian untuk menjadi seorang pro player Valorant di kedepannya dan menjadi pemain terbaik di dunia.
-                </p>
+                @php($imageLoops = array())
+                @php(array_push($imageLoops, 5, 6, 7, 10))
+                <table style="width: 100%;">
+                    <colgroup>
+                        <col style="width: 45%;">
+                        <col style="width: 3%;">
+                    </colgroup>
+                    <tbody>
+                    @for($i = 0; $i < sizeof($softskillsKey); $i++)
+                        <tr>
+                            <td class="text-2xl">{{ $softskillsKey[$i] }}</td>
+                            <td class="text-2xl">:</td>
+                            <td>
+                                @for($j = 0; $j < $imageLoops[$i]; $j++)
+                                    <div class="inline-block">
+                                        <img src="{{ asset('/images/logo/red_star.png') }}" alt="red star" width="25rem">
+                                    </div>
+                                @endfor
+                            </td>
+                        </tr>
+                    @endfor
+                    </tbody>
+                </table>
             </div>
         </div>
 
@@ -39,18 +59,18 @@
 
         <div class="fixed" style="bottom: 9%; right: 8.75rem;">
             <div class="" style="margin-bottom: 2rem;">
-                <div class="softskills-button">
-                    <a href="/softskills/devin-augustin">Soft Skills >>></a>
+                <div class="profiles-button">
+                    <a href="/profiles/devin-augustin">Profiles >>></a>
                 </div>
             </div>
 
             <div class="" style="margin-bottom: 2rem;">
                 <div class="prev inline-block">
-                    <a href="/profiles/ariel-sefrian">PREV</a>
+                    <a href="/softskills/ariel-sefrian">PREV</a>
                 </div>
 
                 <div class="next inline-block">
-                    <a href="/profiles/rico-tokanto">NEXT</a>
+                    <a href="/softskills/rico-tokanto">NEXT</a>
                 </div>
             </div>
 

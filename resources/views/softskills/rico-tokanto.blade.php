@@ -23,15 +23,35 @@
             <br><br>
 
             <div class="font-poppins text-base text-justify mr-24">
-                <p>
-                Aloo, Perkenalkan Saya Rico Frenaldi Tokanto, saya merupakan mahasiswa dari Universitas Bina Nusantara Fakultas Computer Science dengan jurusan Computer Science and Statistics. Saat ini saya sedang menjalani perkuliahan semester 6. Saya sangat menyukai mata kuliah Computer Network, karena itu berhubungan dengan cara kita mengalokasikan serta mengatur IP address untuk setiap komputer.
-                </p>
+                <div class="text-3xl font-bold mb-5" style="border-bottom: dotted black 2px; width: 100%;">
+                    Soft Skills
+                </div>
+                @php($softskillsKey = array())
+                @php(array_push($softskillsKey, "Creative", "Muscles", "Handsome AF", "GYM BOI"))
 
-                <br>
-
-                <p>
-                Saya lebih suka melakukan aktivitas di luar ruangan dibandingkan dengan kegiatan pasif seperti jalan - jalan ke mall, duduk di cafe dan lain sebagainya. Saya sangat menyukai olahraga badminton, bermain game  serta kerap melakukan olahraga angkat beban, karena menurut saya berolahraga itu menjaga tubuh dan pikiran saya tetap sehat.
-                </p>
+                @php($imageLoops = array())
+                @php(array_push($imageLoops, 7, 10, 10, 10))
+                <table style="width: 100%;">
+                    <colgroup>
+                        <col style="width: 45%;">
+                        <col style="width: 3%;">
+                    </colgroup>
+                    <tbody>
+                    @for($i = 0; $i < sizeof($softskillsKey); $i++)
+                        <tr>
+                            <td class="text-2xl">{{ $softskillsKey[$i] }}</td>
+                            <td class="text-2xl">:</td>
+                            <td>
+                                @for($j = 0; $j < $imageLoops[$i]; $j++)
+                                    <div class="inline-block">
+                                        <img src="{{ asset('/images/logo/red_star.png') }}" alt="red star" width="25rem">
+                                    </div>
+                                @endfor
+                            </td>
+                        </tr>
+                    @endfor
+                    </tbody>
+                </table>
             </div>
         </div>
 
@@ -39,18 +59,18 @@
 
         <div class="fixed" style="bottom: 9%; right: 8.75rem;">
             <div class="" style="margin-bottom: 2rem;">
-                <div class="softskills-button">
-                    <a href="/softskills/rico-tokanto">Soft Skills >>></a>
+                <div class="profiles-button">
+                    <a href="/profiles/rico-tokanto">Profiles >>></a>
                 </div>
             </div>
 
             <div class="" style="margin-bottom: 2rem;">
                 <div class="prev inline-block">
-                    <a href="/profiles/devin-augustin">PREV</a>
+                    <a href="/softskills/devin-augustin">PREV</a>
                 </div>
 
                 <div class="next inline-block">
-                    <a href="/profiles/ariel-sefrian">NEXT</a>
+                    <a href="/softskills/ariel-sefrian">NEXT</a>
                 </div>
             </div>
 
