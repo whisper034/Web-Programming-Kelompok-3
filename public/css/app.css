@@ -482,6 +482,12 @@ video {
 .m-11{
   margin: 2.75rem;
 }
+.m-5{
+  margin: 1.25rem;
+}
+.m-7{
+  margin: 1.75rem;
+}
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -504,6 +510,9 @@ video {
 .grid{
   display: grid;
 }
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 .flex-col{
   flex-direction: column;
 }
@@ -512,6 +521,9 @@ video {
 }
 .justify-center{
   justify-content: center;
+}
+.justify-between{
+  justify-content: space-between;
 }
 .object-cover{
   -o-object-fit: cover;
@@ -532,6 +544,14 @@ video {
 .font-poppins{
   font-family: "Poppins", sans-serif;
 }
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
 .text-6xl{
   font-size: 3.75rem;
   line-height: 1;
@@ -543,6 +563,14 @@ video {
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
+}
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 .font-bold{
   font-weight: 700;

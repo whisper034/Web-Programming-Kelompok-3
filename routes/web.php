@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 // HOME
 Route::get('/', function () {
-    return view('home');
+    return view('main/home');
 });
 
 // PROFILE ROUTES
