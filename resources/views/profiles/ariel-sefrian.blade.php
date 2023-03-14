@@ -11,7 +11,7 @@
 <body style="background-color: #e8e8e8;">
 <div class="fullScreen grid" style="grid-template-columns: fit-content(100%) auto">
     <div class="fullHeight" style="background-color: black;">
-        <img src="{{ asset('/images/profile-images/ariel-sefrian.jpg') }}" alt="ariel sefrian" class="p-14 fullHeight object-cover" style="width: 35rem;">
+        <img src="{{ asset('/images/profile-images/ariel-sefrian.jpg') }}" alt="ariel sefrian" class="p-14 fullHeight object-cover">
     </div>
 
     <div class="m-11 mt-32">
@@ -37,19 +37,21 @@
 
         <br><br>
 
-        <div class="fixed" style="bottom: 16%; right: 8.75rem;">
-            <div class="prev inline-block">
-                <a href="/profiles/rico-tokanto">PREV</a>
-            </div>
-
-            <div class="next inline-block">
-                <a href="/profiles/devin-augustin">NEXT</a>
-            </div>
-        </div>
-
         <div class="fixed" style="bottom: 9%; right: 8.75rem;">
-            <div class="home-button">
-                <a href="/"><<< Back to Home</a>
+            <div class="" style="margin-bottom: 1.8rem;">
+                <div class="prev inline-block">
+                    <a href="/profiles/rico-tokanto">PREV</a>
+                </div>
+
+                <div class="next inline-block">
+                    <a href="/profiles/devin-augustin">NEXT</a>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="home-button">
+                    <a href="/"><<< Back to Home</a>
+                </div>
             </div>
         </div>
     </div>
