@@ -7,17 +7,28 @@
 
 Repository ini berisi tentang profile singkat anggota kelompok 3. Berikut adalah screenshotnya:
 
-1. Home Page
-   <img src="public/images/readme-images/home-page.png" alt="home page">
+**Home Page**
+   <img src="public/images/readme-images/home-page-2.png" alt="home page">
 
-2. Profile Ariel Sefrian
-   <img src="public/images/readme-images/profile-ariel.png" alt="ariel sefrian">
+**Profile Pages**
+1. Profile Ariel Sefrian
+   <img src="public/images/readme-images/profile-ariel-2.png" alt="ariel sefrian">
    
-3. Profile Devin Augustin
-   <img src="public/images/readme-images/profile-devin.png" alt="devin augustin">
+2. Profile Devin Augustin
+   <img src="public/images/readme-images/profile-devin-2.png" alt="devin augustin">
 
-4. Profile Rico Frenaldi Tokanto
-   <img src="public/images/readme-images/profile-rico.png" alt="rico tokanto">
+3. Profile Rico Frenaldi Tokanto
+   <img src="public/images/readme-images/profile-rico-2.png" alt="rico tokanto">
+
+**Soft Skills Pages**
+1. Soft Skills Ariel Sefrian
+   <img src="public/images/readme-images/softskill-ariel.png" alt="ariel sefrian">
+
+2. Soft Skills Devin Augustin
+   <img src="public/images/readme-images/softskill-devin.png" alt="devin augustin">
+
+3. Soft Skills Rico Frenaldi Tokanto
+   <img src="public/images/readme-images/softskill-rico.png" alt="rico tokanto">
 
 Repository menggunakan **Tailwind CSS**
 
@@ -32,7 +43,7 @@ Cara untuk menjalankan repository:
 8. Navigasi ke localhost yang digenerate oleh `php artisan serve`
 
 ### Note:
-Branch yang bisa dipakai (default) adalah branch **Production**, jadi kalau mau download silahkan ke branch Production.
+Branch yang bisa dipakai (default) adalah branch **production**, jadi kalau mau download silahkan ke branch production kemudian download zip.
 
 ## Copyright
-#### @Kelompok 3 - All Rights Reserved
+#### @Kelompok 3 - Owner: Ariel Sefrian - All Rights Reserved
