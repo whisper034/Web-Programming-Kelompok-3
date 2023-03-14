@@ -492,17 +492,11 @@ video {
 .mr-24{
   margin-right: 6rem;
 }
-.mt-10{
-  margin-top: 2.5rem;
-}
-.mr-1{
-  margin-right: 0.25rem;
-}
-.mr-2{
-  margin-right: 0.5rem;
-}
 .mr-3{
   margin-right: 0.75rem;
+}
+.mt-10{
+  margin-top: 2.5rem;
 }
 .inline-block{
   display: inline-block;
@@ -527,15 +521,6 @@ video {
 }
 .justify-center{
   justify-content: center;
-}
-.justify-between{
-  justify-content: space-between;
-}
-.justify-around{
-  justify-content: space-around;
-}
-.justify-evenly{
-  justify-content: space-evenly;
 }
 .object-cover{
   -o-object-fit: cover;
