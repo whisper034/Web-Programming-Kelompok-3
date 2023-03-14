@@ -476,9 +476,6 @@ video {
 .fixed{
   position: fixed;
 }
-.relative{
-  position: relative;
-}
 .m-11{
   margin: 2.75rem;
 }
@@ -489,20 +486,32 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.mb-5{
+  margin-bottom: 1.25rem;
+}
 .mr-24{
   margin-right: 6rem;
 }
-.mt-20{
-  margin-top: 5rem;
+.mt-10{
+  margin-top: 2.5rem;
 }
-.mt-32{
-  margin-top: 8rem;
+.mr-1{
+  margin-right: 0.25rem;
+}
+.mr-2{
+  margin-right: 0.5rem;
+}
+.mr-3{
+  margin-right: 0.75rem;
 }
 .inline-block{
   display: inline-block;
 }
 .flex{
   display: flex;
+}
+.table{
+  display: table;
 }
 .grid{
   display: grid;
@@ -516,6 +525,18 @@ video {
 .items-center{
   align-items: center;
 }
+.justify-center{
+  justify-content: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.justify-around{
+  justify-content: space-around;
+}
+.justify-evenly{
+  justify-content: space-evenly;
+}
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -526,22 +547,19 @@ video {
 .text-center{
   text-align: center;
 }
-.text-right{
-  text-align: right;
-}
 .text-justify{
   text-align: justify;
 }
 .font-poppins{
   font-family: "Poppins", sans-serif;
 }
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
 }
 .text-6xl{
   font-size: 3.75rem;
@@ -599,9 +617,20 @@ video {
     color: black;
 }
 
+.softskill-button a {
+    background-color: black;
+    color: white;
+    padding: 20px 52px;
+}
+
+.softskill-button a:hover {
+    background-color: #a0a0a0;
+    color: black;
+}
+
 .fullHeight {
     height: 100vh;
-    width: auto;
+    width: 36vw;
 }
 
 .next a {
@@ -635,6 +664,30 @@ video {
 }
 
 .home-button a:hover {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+.softskills-button a {
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    padding: 0.8rem 3.65rem;
+}
+
+.softskills-button a:hover {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+.profiles-button a {
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    padding: 0.8rem 4.14rem;
+}
+
+.profiles-button a:hover {
     background-color: #a0a0a0;
     color: black;
 }

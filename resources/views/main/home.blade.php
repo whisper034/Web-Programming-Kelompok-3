@@ -60,11 +60,18 @@
             WELCOME
         </div>
 
-        <br><br>
+        <br><br><br>
 
-        <div class="font-bold font-poppins profile-button" style="font-size: 12pt;">
-            <a href="/profiles/ariel-sefrian">PROFILES</a>
+        <div class="flex justify-center">
+            <div class="font-bold font-poppins profile-button mr-3" style="font-size: 12pt;">
+                <a href="/profiles/ariel-sefrian">PROFILES</a>
+            </div>
+
+            <div class="font-bold font-poppins softskill-button" style="font-size: 12pt;">
+                <a href="/softskills/ariel-sefrian">SOFTSKILLS</a>
+            </div>
         </div>
+
     </div>
 </div>
 
