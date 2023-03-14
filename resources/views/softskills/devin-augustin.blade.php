@@ -26,8 +26,8 @@
                 <div class="text-3xl font-bold mb-5" style="border-bottom: dotted black 2px; width: 100%;">
                     Soft Skills
                 </div>
-                @php($softskillsKey = array())
-                @php(array_push($softskillsKey, "Leadership", "Public Speaking", "Creative", "Yakuza"))
+                @php($softskills = array())
+                @php(array_push($softskills, "Leadership", "Public Speaking", "Creative", "Yakuza"))
 
                 @php($imageLoops = array())
                 @php(array_push($imageLoops, 5, 6, 7, 10))
@@ -37,19 +37,21 @@
                         <col style="width: 3%;">
                     </colgroup>
                     <tbody>
-                    @for($i = 0; $i < sizeof($softskillsKey); $i++)
+                    @php($currIndex = 0)
+                    @foreach($softskills as $softskillsKey => $softskillsValue)
                         <tr>
-                            <td class="text-2xl">{{ $softskillsKey[$i] }}</td>
+                            <td class="text-2xl">{{ $softskillsValue }}</td>
                             <td class="text-2xl">:</td>
                             <td>
-                                @for($j = 0; $j < $imageLoops[$i]; $j++)
+                                @for($j = 0; $j < $imageLoops[$currIndex]; $j++)
                                     <div class="inline-block">
                                         <img src="{{ asset('/images/logo/red_star.png') }}" alt="red star" width="25rem">
                                     </div>
                                 @endfor
                             </td>
                         </tr>
-                    @endfor
+                        @php($currIndex++)
+                    @endforeach
                     </tbody>
                 </table>
             </div>
