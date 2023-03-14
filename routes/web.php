@@ -14,19 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 // HOME
-Route::get('/', function () {
+Route::get('/', function() {
     return view('main/home');
 });
 
 // PROFILE ROUTES
-Route::get('/profiles/ariel-sefrian', function () {
-    return view('profiles/ariel-sefrian');
+Route::get('/profiles/{name}', function($name) {
+    return view('profiles/'.$name);
 });
 
-Route::get('/profiles/devin-augustin', function () {
-    return view('profiles/devin-augustin');
-});
-
-Route::get('/profiles/rico-tokanto', function () {
-    return view('profiles/rico-tokanto');
+// SOFTSKILLS
+Route::get('/softskills/{name}', function($name) {
+   return view('softskills/'.$name);
 });

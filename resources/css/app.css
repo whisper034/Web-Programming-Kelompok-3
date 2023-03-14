@@ -40,9 +40,20 @@
     color: black;
 }
 
+.softskill-button a {
+    background-color: black;
+    color: white;
+    padding: 20px 52px;
+}
+
+.softskill-button a:hover {
+    background-color: #a0a0a0;
+    color: black;
+}
+
 .fullHeight {
     height: 100vh;
-    width: auto;
+    width: 36vw;
 }
 
 .next a {
@@ -76,6 +87,30 @@
 }
 
 .home-button a:hover {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+.softskills-button a {
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    padding: 0.8rem 3.65rem;
+}
+
+.softskills-button a:hover {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+.profiles-button a {
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    padding: 0.8rem 4.14rem;
+}
+
+.profiles-button a:hover {
     background-color: #a0a0a0;
     color: black;
 }
