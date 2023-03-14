@@ -2061,6 +2061,15 @@ module.exports = {
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+function showTime() {
+  var date = new Date(),
+    utc = new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds());
+  var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  document.getElementById('time').innerHTML = utc.toLocaleTimeString('id');
+  document.getElementById('date').innerHTML = utc.toLocaleDateString('id');
+  document.getElementById('day').innerHTML = weekday[date.getDay()];
+}
+setInterval(showTime, 1000);
 
 /***/ }),
 
